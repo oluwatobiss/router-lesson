@@ -5,7 +5,7 @@ import Profile from "./Profile";
 
 function Routes() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/router-lesson">
       <Switch>
         <Route exact path="/" component={App} />
         <Route exact path="/profile" component={Profile} />
